@@ -162,19 +162,19 @@ body {
 
 @keyframes changewomen{
   0%{
-    background-image:url(assets/dress1.jpg);
+    background-image:url(components/assets/dress1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
   }
   
   50%{
-    background-image:url(assets/dress2.jpg);
+    background-image:url(components/assets/dress2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
   }
  
   100%{
-    background-image:url(assets/dress3.jpeg);
+    background-image:url(components/assets/dress3.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -182,19 +182,19 @@ body {
 
 @keyframes changemen{
   0%{
-    background-image:url(assets/men1.jpeg);
+    background-image:url(components/assets/men1.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
   }
   
   50%{
-    background-image:url(assets/men2.jpeg);
+    background-image:url(components/assets/men2.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
   }
  
   100%{
-    background-image:url(assets/shirt1.jpeg);
+    background-image:url(components/assets/shirt1.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -202,19 +202,19 @@ body {
 
 @keyframes changechild{
   0%{
-    background-image:url(assets/top1.jpeg);
+    background-image:url(components/assets/top1.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
   }
   
   50%{
-    background-image:url(assets/kurti2.jpeg);
+    background-image:url(components/assets/kurti2.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
   }
  
   100%{
-    background-image:url(assets/kurti.jpeg);
+    background-image:url(components/assets/kurti.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
   }

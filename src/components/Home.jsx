@@ -4,7 +4,7 @@ import ProductItems from "./ProductItems";
 const products = [
   {
     id: 1,
-    image: 'src/assets/top1.jpeg', 
+    image: 'src/components/assets/top1.jpeg', 
     name: 'Tops',
     price: '299',
     discount:499,
@@ -12,7 +12,7 @@ const products = [
   },
   {
     id: 2,
-    image: 'src/assets/saree.jpg',
+    image: 'src/components/assets/saree.jpg',
     name: 'Saree ',
     price: 499.00,
     discount:799,
@@ -20,7 +20,7 @@ const products = [
   },
   {
     id: 3,
-    image:'src/assets/dress2.jpg',
+    image:'src/components/assets/dress2.jpg',
     name: 'Frocks for Girls',
     price: 19.99,
     discount:30,
@@ -28,7 +28,7 @@ const products = [
   },
   {
     id: 4,
-    image: 'src/assets/men1.jpeg',
+    image: 'src/components/assets/men1.jpeg',
     name: 'Shirts',
     price: 299,
     discount:399,
@@ -36,7 +36,7 @@ const products = [
   },
   {
     id: 5,
-    image: 'src/assets/pant1.jpeg',
+    image: 'src/components/assets/pant1.jpeg',
     name: 'Track Pants',
     price: 250,
     discount:299,
@@ -44,7 +44,7 @@ const products = [
   },
   {
     id: 6,
-    image: 'src/assets/pant2.jpeg',
+    image: 'src/components/assets/pant2.jpeg',
     name: 'Jeans',
     price: 299,
     discount:499,
@@ -52,7 +52,7 @@ const products = [
   },
   {
     id: 7,
-    image:'src/assets/men2.jpeg',
+    image:'src/components/assets/men2.jpeg',
     name: 'Formal Suits',
     price: 799,
     discount:999,
@@ -60,7 +60,7 @@ const products = [
   },
   {
     id: 8,
-    image: 'src/assets/kurti2.jpeg',
+    image: 'src/components/assets/kurti2.jpeg',
     name: 'Kurti',
     price: 199,
     discount:250,
@@ -68,7 +68,7 @@ const products = [
   },
   {
     id: 9,
-    image:'src/assets/suit6.jpeg',
+    image:'src/components/assets/suit6.jpeg',
     name: 'Salwar Suit',
     price: 399,
     discount:599,
@@ -76,7 +76,7 @@ const products = [
   },
   {
     id: 10,
-    image: 'src/assets/men4.jpeg',
+    image: 'src/components/assets/men4.jpeg',
     name: 'T-Shirts',
     price: 199,
     discount:300,
