@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+ 
+}
+
+.navlist a {
+  text-decoration: none;
+  font-weight:900px ;
+  color: #fff;
+  font-size: larger;
+}
+
+.navbox li {
+  list-style-type: none;
+}
+
+.navbox ul {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  gap: 20px;
+}
+.head {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff; /* Adjust as needed */
+  z-index: 1000; /* Ensure it's above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Second sticky header */
+.header2 {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 50px; /* Adjust based on the height of .head */
+  width: 100%;
+  background-color: #fff; /* Adjust as needed */
+  z-index: 1000; /* Ensure it's above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container {
+  height: 50px;
+  width: 100vw;
+  background-color: rgb(138, 9, 103);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 0px 6px black;
+ 
+
+}
+
+.container2 {
+  height: 40px;
+  width: 100vw;
+  background-color: rgb(255, 160, 230);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-right: 40px;
+  box-shadow: 0px 0px 6px black;
+ 
+ 
+
+}
+
+.container2 .navlist a {
+  text-decoration: none;
+  font-weight:900px ;
+  color: #000000;
+  font-size: larger;
+}
+
+
+.but{
+  place-items: bottom;
+  width: 200px;
+  height: 100px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 30px;
+  background-color:rgb(138, 9, 103) ;
+}
+
+
+.main{
+  display: grid;
+  place-items: center;
+}
+.imagecont1{
+  display: flex;
+  place-content: center;
+  height: 500px;
+  width: 400px;
+  box-shadow: 0px 2px 6px  #000;
+  animation: changewomen 10s linear infinite;
+}
+.imagecont2{
+  display: flex;
+  place-content: center;
+  height: 500px;
+  width: 400px;
+  box-shadow: 0px 2px 6px  #000;
+  animation: changemen 10s linear infinite;
+}
+.imagecont3{
+  display: flex;
+  place-content: center;
+  height: 500px;
+  width: 400px;
+  box-shadow: 0px 2px 6px  #000;
+  animation: changechild 10s linear infinite;
+}
+
+.imagebig{
+  margin: 30px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  gap: 20px;
+}
+
+.freebox{
+  font-size: 20px;
+  height: 70px;
+  width: 300px;
+  margin-top: 425px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 0px 5px 1px #000;
+
+}
+
+.freebox a{
+  color: black;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* for animation  */
+
+@keyframes changewomen{
+  0%{
+    background-image:url(assets/dress1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  50%{
+    background-image:url(assets/dress2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+ 
+  100%{
+    background-image:url(assets/dress3.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@keyframes changemen{
+  0%{
+    background-image:url(assets/men1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  50%{
+    background-image:url(assets/men2.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+ 
+  100%{
+    background-image:url(assets/shirt1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@keyframes changechild{
+  0%{
+    background-image:url(assets/top1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  50%{
+    background-image:url(assets/kurti2.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+ 
+  100%{
+    background-image:url(assets/kurti.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+/* ?section men part */
+.men{
+  height: 100vh;
+  width: 100vw;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.section2{
+  margin-top: 300px;
+}
+
+
+
+/* for responsive website */
+/* for responsive website */
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .container2 {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .navbox ul {
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .navlist a {
+    font-size: medium;
+  }
+
+  .imagebig {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .freebox {
+    width: 100%;
+    margin-top: 150px;
+  }
+
+  .imagecont1, .imagecont2, .imagecont3 {
+    height: 600px;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navlist a {
+    font-size: small;
+  }
+
+  .container {
+    padding: 5px;
+  }
+
+  .imagecont1, .imagecont2, .imagecont3 {
+    height: 200px;
+  }
+}
+
