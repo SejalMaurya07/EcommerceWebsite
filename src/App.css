@@ -233,8 +233,6 @@ body {
 }
 
 
-
-/* for responsive website */
 /* for responsive website */
 @media only screen and (max-width: 768px) {
   .container {
@@ -287,5 +285,6 @@ body {
   .imagecont1, .imagecont2, .imagecont3 {
     height: 200px;
   }
+  
 }
 
